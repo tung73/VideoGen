@@ -1,8 +1,11 @@
 frames/
 audio/
 audio_anchor/
+talking_raw/
+broll_smooth/
 assets/overlays_*/
 assets/frame_*_broadcast.png
+output/Iran_US_War_News_Report_Anchor_27Jul2026.mp4
+output/Iran_US_War_News_Report_RealVideo.mp4
 __pycache__/
 *.pyc
-output/Iran_US_War_News_Report_Anchor_27Jul2026.mp4
