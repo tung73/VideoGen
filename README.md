@@ -16,3 +16,8 @@ See [`iran_us_news_report/`](iran_us_news_report/) for a professional broadcast-
 ```bash
 python3 iran_us_news_report/generate_report.py
 ```
+
+## Watch on phone
+
+- **Live player (Safari / iPhone):** https://tung73.github.io/VideoGen/
+- **Direct MP4:** https://tung73.github.io/VideoGen/Iran_US_War_News_Report_27Jul2026.mp4
