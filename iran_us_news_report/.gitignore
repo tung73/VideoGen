@@ -1,0 +1,6 @@
+frames/
+audio/
+assets/overlays_*/
+assets/frame_*_broadcast.png
+__pycache__/
+*.pyc
