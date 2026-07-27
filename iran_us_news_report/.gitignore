@@ -1,6 +1,8 @@
 frames/
 audio/
+audio_anchor/
 assets/overlays_*/
 assets/frame_*_broadcast.png
 __pycache__/
 *.pyc
+output/Iran_US_War_News_Report_Anchor_27Jul2026.mp4
