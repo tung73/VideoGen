@@ -9,3 +9,6 @@ output/Iran_US_War_News_Report_Anchor_27Jul2026.mp4
 output/Iran_US_War_News_Report_RealVideo.mp4
 __pycache__/
 *.pyc
+interview/talking/
+interview/audio/
+interview/output/Street_Interview_AI_Campus.mp4
