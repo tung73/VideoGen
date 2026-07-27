@@ -1,25 +1,22 @@
-# Iran–U.S. Conflict News Report Video
+# Iran–U.S. Conflict News Report (Female Anchor)
 
-Professional broadcast-style situation briefing generated from open-source reporting as of **27 July 2026**.
+Broadcast-style situation briefing as of **27 July 2026**, with a female studio anchor and 3D situation graphics.
 
-## Output
+## Outputs
 
-- Video: `output/Iran_US_War_News_Report_27Jul2026.mp4` (1920×1080, H.264/AAC)
-- Includes TTS narration, lower-thirds, and **3D situation graphics** (Persian Gulf / Strait of Hormuz map + conflict timeline)
+- `output/Iran_US_War_News_Report_Anchor_iPhone.mp4` — Safari/iPhone faststart encode
+- Published at `docs/Iran_US_War_News_Report_Anchor.mp4`
 
-## Regenerating
+## Generate
 
 ```bash
-python3 iran_us_news_report/generate_report.py
+# Requires prior 3D frames from generate_report.py (map3d + timeline3d)
+python3 iran_us_news_report/generate_anchor_report.py
 ```
 
-## Sources (public reporting)
+## Performance design
 
-- Associated Press — “US and Iran pause their attacks after days of escalation” (26 Jul 2026)
-- Al Jazeera — “US and Iran hit pause on strikes for second day” (26 Jul 2026)
-- Reuters / Al-Monitor — Iran will halt strikes while U.S. bombing pause holds
-- Economic Times / Bloomberg summaries on Hormuz talks and naval blockade
-
-## Editorial notes
-
-This is a synthetic news package for demonstration. Graphics are stylized explanatory 3D maps, not classified or live ISR products. Casualty and operational details follow published wire reporting and may lag classified assessments.
+- Anchor: dark navy blazer, upright desk posture, blue world-map LED newsroom
+- Opening smile → speaking blink/nod → palm-turn gestures on emphasis
+- Female neural TTS: `en-US-AvaNeural`
+- A-roll studio ↔ B-roll 3D Hormuz map / conflict timeline
